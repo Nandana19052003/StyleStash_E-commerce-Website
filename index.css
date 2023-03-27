@@ -341,14 +341,14 @@ body {
   padding-bottom: 15px;
 }
 
-#banner3{
+
+.banner-container2 {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 0 80px;
 }
 
-#banner3 .banner-box-3{
+.banner-container2 .banner-box-3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -356,30 +356,13 @@ body {
   background-image: url("img/banner/b7.jpg");
   height: 30vh;
   min-width: 30%;
-  padding: 20px;
+  padding: 20px ;
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
-
 }
 
-#banner3 h2{
-  color: #fff;
-  font-size: 22px;
-  font-weight: 900;
-}
-
-#banner3 h2{
-  color: #d32121;
-  font-size: 15px;
-  font-weight: 800;
-}
-
-#banner3 .banner-box-4{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+.banner-container2 .banner-box-4 {
   background-image: url("img/banner/b18.jpg");
   height: 30vh;
   min-width: 30%;
@@ -387,10 +370,9 @@ body {
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
-
 }
 
-#banner3 .banner-box-5{
+.banner-container2 .banner-box-5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -398,10 +380,9 @@ body {
   background-image: url("img/banner/b4.jpg");
   height: 30vh;
   min-width: 30%;
-  padding: 20px;
+  padding: 20px ;
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
-
 }
 
