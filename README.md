@@ -3,10 +3,10 @@
 Style Stash is a web commerce website that offers a wide range of fashion products including clothing, shoes, and accessories for men and women. The website is built using HTML, CSS, and JavaScript and is designed to be user-friendly and visually appealing.
 
 <h2>Features</h2><br>
-Responsive design that adapts to different screen sizes and devices
-Navigation bar that allows users to browse different categories and search for products
-Product page that displays product images, descriptions, prices, and user reviews
-Shopping cart that allows users to add, edit, and remove products and proceed to checkout
+Responsive design that adapts to different screen sizes and devices<br>
+Navigation bar that allows users to browse different categories and search for products<br>
+Product page that displays product images, descriptions, prices, and user reviews<br>
+Shopping cart that allows users to add, edit, and remove products and proceed to checkout<br>
 
 <br>
 
