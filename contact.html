@@ -1,51 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us | StyleStash</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Shop</a>
-      <a href="#">About</a>
-      <a href="#">Contact Us</a>
-    </nav>
-  </header>
 
-  <main>
-    <h1>Contact Us</h1>
-    <p>We would love to hear from you! Please use the form below to get in touch with us.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stylestash Ecommerce</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
-    <form action="#" method="post">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
+        <link rel="stylesheet" href="index.css">
+    </head>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+    <body>
 
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject" required>
+        <section id="header">
+            <img src="https://cdn.shopify.com/s/files/1/0640/6845/2611/files/Style_Stash_Logo_1.png?v=1677837978" alt="Logo" class="logo" width="150" height="50">
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" required></textarea>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  href="shop.html">Shop</a></li>
+                    <li><a  href="blog.html">Blog</a></li>
+                    <li><a  href="About.html">About</a></li>
+                    <li><a class="active"href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
 
-      <button type="submit">Send Message</button>
-    </form>
+                </ul>
+            </div>
+        </section>
 
-    <address>
-      <p>StyleStash Fashion Inc.</p>
-      <p>123 Main Street</p>
-      <p>New York, NY 10001</p>
-      <p>United States</p>
-    </address>
-  </main>
+        <section id="page-header" class="about-header">
+           
+            <h2>#let's_talk</h2>
+            
+            <p>Leave a message, We love to hear from you!</p>
+         
+            </section>
 
-  <footer>
-    <p>&copy; 2023 StyleStash Fashion Inc.</p>
-  </footer>
-</body>
+        <section id="contact-details" class="section-p1 section-m1">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div class="details">
+                <div class="contact">
+                    <li>
+                        <i class="fal fa-map"></i>
+                        <p>56 Glassford Street Glasgow G1 1UL New York</p>
+                    </li>
+                    <li>
+                        <i class="fal fa-phone"></i>
+                        <p>+1 800 123 1234</p>
+                    </li>
+                    <li>
+                        <i class="fal fa-envelope"></i>
+                        <p> stylestash@gmail.com </p>
+                    </li>
+                    <li>
+                        <i class="fal fa-clock"></i>
+                        <p> Mon - Sat 9:00 - 18:00</p>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i> 
+                        <p> @stylestash </p>
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter"></i>
+                        <p> @stylestash </p>
+    
+                    </li>
+                    <li>
+                        <i class="fab fa-facebook"></i> 
+                        <p> @stylestash </p>
+                    </li>
+                 </div>
+            </div>
+
+             <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12237.531927111559!2d-75.25496436473765!3d39.932822270787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c72fa8c62de9%3A0x748364a7bb34338f!2sstylestash%20Shop!5e0!3m2!1sen!2sin!4v1680526751870!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>"
+             </div>
+             
+        </section>
+
+        <section id="form-details">
+            <form action="">
+                <span>LEAVE A MESSAGE</span>
+                <h2>We love to hear from you</h2>
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="E-Mail">
+                <input type="text" placeholder="Subject">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="white">Send Message</button>
+            </form>
+
+            <div class="people">
+                <div>
+                    <img src="img/people/1.png" alt="person">
+                    <h4>John Doe</h4>
+                    <p>Founder & CEO</p>
+                </div>
+                <div>
+                    <img src="img/people/2.png" alt="person">
+                    <h4> William Smith </h4>
+                    <p>Senior Marketing Manager</p>
+            </div>
+            <div>
+                <img src="img/people/3.png" alt="person">
+                <h4>Emma Stones</h4>
+                <p>Senior Designer</p>
+        </section>
+
+        
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Subscribe to our newsletter</h4>
+                <p>Get the latest news and <span>special offers</span></p>
+            </div>
+
+            <div class="form">
+                <input type="text" placeholder="Your e-mail address">
+                <button class="white">Subscribe</button>
+            </div>
+        </section>
+
+        
+        <footer class="section-p1">
+            <div class="coloumn">
+                <img src="https://cdn.shopify.com/s/files/1/0640/6845/2611/files/Style_Stash_Logo_1.png?v=1677837978" alt="Logo" class="logo" width="150" height="50">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> Fashion Inc. ,123 Main Street,New York, NY 10001,United States</p>
+                <p><strong>Phone:</strong>+01 22589 32566 / 01 25 96322</p>
+                <p><strong>Hours:</strong> - 18:00, Mon - Sat</p>
+                <p><strong>Email:</strong> stylestash@gmail.com </p>
+            </div>
+        
+           
+            <div class="coloumn">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/pay/play.jpg" alt="googleplay">
+                    <img src="img/pay/app.jpg" alt="appstore">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <div class="row">
+                    <img src="img/pay/pay.png" alt="pay">
+                </div>
+            </div>
+        
+            <div class="coloumn">
+                <p>© 2023 Style Stash. </p>
+            </div>
+        </footer>
+
+
+
+        <script src="index.js"></script>
+    </body>
+
 </html>
