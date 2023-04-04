@@ -633,17 +633,23 @@ body {
   flex-direction: column;
   padding: 14px;
 }
-
-#blog{
-  padding: 150px 150px 0 150px;
+.blog-header h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
-#blog .blogbox{
+.blog-header p {
+  font-size: 18px;
+  color: #666;
+}
+
+#blog {
+  padding: 80px 20px;
+}
+
+.blogbox {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 #blog .blogimg{
@@ -657,35 +663,37 @@ body {
   object-fit: cover;
 }
 
-#blog .blog-details{
-  width: 50%;
-  padding-top: 30px;
-
+.blog-details {
+  flex-basis: 70%;
 }
 
-#blog .blog-details a{
-  text-decoration: none;
-  color: #333;
-  font-size: large;
-  font-weight: 700;
-  padding-bottom: 20px;
-  position: relative;
+.blog-details h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-#blog .blog-details a:hover{
-  color: #bd3e40;
+.blog-details p {
+  margin-bottom: 20px;
+  line-height: 1.5;
 }
 
-#blog .blog-details a::after{
-  content: "";
-  width: 50px;
-  height: 2px;
-  background-color: #0c0707;
-  position: absolute;
-  top: 4px;
-  right:-60px ;
+.blog-details a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9ed6a6;
+  color: #fff;
+  border-radius: 5px;
 }
 
+.blog-details a:hover {
+  background-color: #5dbd7d;
+}
+
+.blogbox h1 {
+  font-size: 30px;
+  color: #9ed6a6;
+  margin: 0;
+}
 
 /* About Page */
 
